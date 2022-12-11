@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(clock.png);
+    margin: auto;
+    background-size: 100%;
+}
+
+.hours, .minutes, .seconds {
+    position: absolute;
+    border: 20px;
+    background-color: black;
+    transform-origin: bottom;
+}
+
+.hours {
+    top: 11.55vw;
+    left: 19.49vw;
+    width: 0.8vw;
+    height: 8.5vw;
+}
+
+.minutes {
+    width: 0.5vw;
+    height: 15vw;
+    top: 5vw;
+    left: 19.625vw;
+}
+
+.seconds {
+    width: 0.27vw;
+    height: 16.5vw;
+    top: 3.6vw;
+    left: 19.75vw;
+}
